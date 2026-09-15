@@ -4,4 +4,4 @@ COPY package.json ./
 COPY server.js ./
 EXPOSE 3000
 CMD ["node", "server.js"]
-ENV VERSION=v4
+ENV VERSION=v4-preview
